@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olsool - Retro Sufi, Qawwali, Folk, and More!</title>
+    <meta name="description" content="Experience the enchanting blend of Retro Sufi, Qawwali, Folk, and more with Olsool. Immerse yourself in timeless melodies and soulful rhythms with our unique music player.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="player-header">Olsool</div>
+        <div class="video-container">
+            <!-- Lazy Load Button -->
+            <div id="lazyLoad" class="lazy-player">▶ Click to Play</div>
+            <!-- YouTube Player -->
+            <div id="youtubePlayer"></div>
+        </div>
+        <div class="playlist-container">
+            <ul class="playlist" id="playlist">
+                <li data-video-id="GHAMyHerv90" class="active">'Kanhaiya, Yaad Hai Kuchh Bhi Hamaari'</li>
+                <li data-video-id="JXvKJOxyrlU">Ae Ri Sakhiri Morey Khwaja Ghar Aaye</li>
+                <li data-video-id="wuxSFZV51W8" data-start="710">Chaap Tilak Sab Chheeni</li>
+                <li data-video-id="LXb3EKWsInQ">Another Qawwali</li>
+                <li data-video-id="-tyvWdq2pyc">Dama Dam Mast Qalandar</li>
+                <li data-video-id="1gukvtH_a3I">Chaudhary</li>
+                <li data-video-id="LekqDjknArc">Aaqa</li>
+                <li data-video-id="6k8Aja80GQM">Sawaar Loon</li>
+                <li data-video-id="Gx_Rqsq1DIw">Shubhaarambh</li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- Load YouTube IFrame API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
